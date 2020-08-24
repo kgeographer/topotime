@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>D3 Test</title>
+      <script src="../lib/d3v3/d3.v3.min.js"></script>
+  </head>
+  <body>
+    <div id="stuff"></div>
+    <script type="text/javascript">
+      var hlist = [ 20, 100, 20 ];
+      d3.select("body").append("p").text("ho fuckin' ho!");
+      svg = d3.select("#stuff").append("svg")
+        .attr("width", 500)
+        .attr("height", 140)
+        
+      svg.append("circle")
+        .attr("cx", 25).attr("cy", 25).attr("r", 25).style("fill", "purple")
+      svg.append("rect")
+        .attr("x", 5).attr("y",60).attr("width",500).attr("height",200)
+        .style("fill", "green");
+      //bands = svg.selectAll("rect")
+      //  .data(hlist)
+      //.enter()
+      //  .append("rect")
+      //  .attr("x", 5)
+      //  .attr("y", function(d, i) {return d})
+      //  .attr("height", function(d, i) {return d})
+      //  .attr("width",500)
+      //  .style("fill", "yellow");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+body {  padding-top: 50px; }
+html {       overflow-y: scroll;}
+.global-head { height: 15px; background-color: #993333; 
+    margin:0; font-size: .65em; font-family: Verdana, sans-serif;
+    line-height: 1em; padding-left: 5px; vertical-align: baseline;}
+.global-head a { color: white; }
+.global-head a:visited { color: white; }
+.narrow-container { width: 650px !important;}
+.starter-template {
+  padding: 40px 15px 5px 15px ;
+  text-align: center;
+}
+/* start bootstrap overides*/
+.navbar-inverse {
+    background-color: #993333 ;
+    border-color: #651006 ; }
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF; }
+.navbar-inverse .navbar-nav > li > a {
+    color: #d1c4b3; }
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #651006;
+    color: #FFFFFF;
+}
+.col-md-4 img {clear: both !important;}
+/* end bootstrap overides*/
+
+.pybody {font-family: Georgia, TimesNewRoman, serif; padding-top: 0 !important}
+
+.controls div { width: 300px; padding: 6px;}
+.controls p { }
+.controls h4 { }
+
+.dropdown { width: 300px;}
+.table-head { font-weight: 800; color: #993333; font-size: .9em;}
+.help {font-style: italic; color: #666; font-size: .9em;}
+.d_calc { background-color: khaki}
+.d_search { background-color: lightgoldenrodyellow}
+
+.periodlist{font-size: .85em; }
+
+#d_filter-summary { margin: 0 12px; padding:2 15px; font-family: monospace; font-size: .9em;
+    line-height: 1.2; background-color: lightgoldenrodyellow; display: none;}
+/* #d_geomvis { height: 140px;} */
+#header { margin-bottom: 6px;}
+#geomvis {clear: both;}
+#left { float: left; width: 350px;}
+#right {float: left; width: 710px}
+.axis { font-family: sans-serif; font-size: .7em; padding-left: 10px; fill: black;}
+#axis-min {}
+#axis-max {float: right;}
+#d_periodlist { width: 350px; float: left; padding: 4px 0 0 2px;
+    overflow: scroll;}
+#d_map {width: 350px; float: left; background-color: lightgoldenrodyellow;
+    height: 350px; }
+#results { font-size: .9em;}
+#sitetitle {font-size: 1.5em; font-weight: bold;}
+#datatitle {font-size: 1.3em; color: #933333; margin-left: 40px;}
+h4 {margin: 0;}

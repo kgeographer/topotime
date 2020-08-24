@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Topotime</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/ttweb.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38248179-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <a href="https://github.com/kgeographer/Topotime" onclick="_gaq.push(['_trackEvent', 'home_links', 'goto_GIT'])">
+        <img style="position: absolute; top: 0; right: 0; border: 0;"
+          src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
+             alt="Fork me on GitHub"></a>
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Topotime</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+           <!-- <li><a href="#contact">Contact</a></li>-->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Topotime v0.1 gallery & sandbox</h1>
+        <p class="lead">A pragmatic data model, D3 layout, and Python functions <br/>for representing complex and/or uncertain periods and events. [<em> in progress </em>]</p>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h3>The D3 Javascript track</h3>
+          <p>There are several examples demonstrating a new timeline layout built upon <a href="http://d3js.org/" target="_blank">D3.js</a>:</p>
+          <p><a href="demo_js.html" onclick="_gaq.push(['_trackEvent', 'home_links', 'demo_js'])"><img src="images/ex-js01.png" align="right"></a>All timespan types (singular, multi-part, cyclical, durations, etc.); <em>part-of</em> and <em>participates</em> relations.</p>
+          <p><a href="us_states.html" onclick="_gaq.push(['_trackEvent', 'home_links', 'usstates_js'])"><img src="images/ex-js02.png" align="right"></a>Lifespans of 50 US states linked to a map.<br/><br/></p>
+          <p><a href="stacked_timelines.html" onclick="_gaq.push(['_trackEvent', 'home_links', 'stacked_js'])"><img src="images/ex-js03.png" align="right"></a>Stacked layout displays timespans as geometric figures; temporal density band and profile.</p>
+          <p><a href="data_from_csv.html" onclick="_gaq.push(['_trackEvent', 'home_links', 'csv_js'])"><img src="images/ex-js04.png" align="right"></a>Simple example rendering Topotime data written as CSV.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>The Python-ic track</h3>
+          
+          <p>Our Python functions generate "temporal geometries" with the help of
+          <a href="https://pypi.python.org/pypi/Shapely" target="_blank">Shapely</a>.</p>
+          <span style="text-align: center; display: block;"><a href="demo_py.html" onclick="_gaq.push(['_trackEvent', 'home_links', 'demo_py'])"><img src="images/ex-py01a.png"></a></span><p>These are rendered to a browser with D3 in <a href="demo_py.html">this sandbox web page</a>, providing some basic query capability.</p>
+          
+       </div>
+        <div class="col-md-4">
+          <h3>Documentation</h3>
+          <p>To simplify things, we will maintain documentation on <a target="_blank" href="https://github.com/kgeographer/Topotime" role="button">the Topotime Github site</a> ...</p>
+          <p>...with an occasional related essay or technical paper here or elsewhere, e.g.</p>
+          <ul>
+			 <li><p><a href="docs/TemporalGeometry.pdf" onclick="_gaq.push(['_trackEvent', 'home_links', 'temp_geom_paper'])">A bit about temporal geometry &raquo;</a></p></li>
+			 <li><p><a href="http://kgeographer.com/wp/topotime-and-place/"  target="_blank" onclick="_gaq.push(['_trackEvent', 'home_links', 'kg_blog01'])">a blog post: "Topotime and place" &raquo;</a></p></li>
+			 </ul>
+        </div>
+      </div>
+<!-- a button <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
